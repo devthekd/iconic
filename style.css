@@ -1,0 +1,126 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "sec sec sec"
+    "foot foot foot";
+  gap: 5vh;
+  background-color: rgb(29, 28, 28);
+}
+header {
+  grid-area: head;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+section {
+  grid-area: sec;
+}
+footer {
+  grid-area: foot;
+}
+header h1 {
+  margin-top: 2vh;
+  font-size: 2.6em;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+header nav ul li a {
+  color: green;
+  padding: 5px;
+  margin: 3px;
+  border-left: 1px solid rgb(255, 255, 255);
+  border-right: 1px solid rgb(255, 255, 255);
+}
+.f-sec-con {
+  width: 60vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+}
+.f-sec-con h2 {
+  font-size: 2.6em;
+  margin-left: 1vw;
+}
+.f-sec-con p {
+  font-size: 1.6em;
+  padding: 10px;
+}
+.s-sec-con h2{
+     font-size: 2.6em;
+     text-align: end;
+     margin-right: 5vw;
+     margin-top: 10vh;
+
+}
+.s-sec-con p{
+  font-size: 2em;
+  text-align: end;
+  margin-right: 5vw;
+  float: right;
+  width: 70vw;
+}
+.s-sec-con img{
+  width: 40vw;
+  position: relative;
+  left: 45vw;
+  top: 5vh;
+}
+.t-sec-con h2{
+  font-size: 2.6em;
+
+  margin-left: 5vw;
+  margin-top: 10vh;
+
+}
+.t-sec-con p{
+font-size: 2em;
+width: 70vw;
+margin-left: 5vw;
+}
+.t-sec-con img{
+  width: 40vw;
+  position: relative;
+  left: 15vw;
+  top: 5vh;
+}
+.for-sec-con h2{
+   font-size: 2.7em;
+   text-align: center;
+   margin-top: 10vh;
+   margin-bottom: 10vh;
+
+}
+.sevices{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.ser-box{
+  width: 25vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  
+}
+.ser-box h1{
+  font-size: 2.3em;
+
+}
+.ser-box p{
+  font-size: 1.6em;
+  
+}
+.ser-box img{
+  width: 20vw;
+}
